@@ -98,6 +98,8 @@ abstract class Manager
 	 * @param mixed $id L'identifiant de la ligne à effacer
 	 * @return mixed La valeur de retour de la méthode execute()
 	 */
+	// cette fonction Delete est danss le Manager, mais on 
+	// va vouloir en mettre une autre ds notre TermController
 	public function delete($id)
 	{
 		if (!is_numeric($id)){
@@ -149,7 +151,7 @@ abstract class Manager
 		if (!is_numeric($id)){
 			return false;
 		}
-
+		
 		$colNames = array_keys($data);
 		$colNamesString = implode(", ", $colNames);
 

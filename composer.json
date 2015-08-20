@@ -12,7 +12,7 @@
             "W\\": "W/",
             "": "app/"
             //avec "" on prévient Composer d'aller chercher nos 
-            //classes ds un sous-dossier sans répéter partour 
+            //classes ds un sous-dossier sans répéter partout 
             //le chemin app/ etc...
         }
     }
